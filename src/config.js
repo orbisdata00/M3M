@@ -14,7 +14,7 @@ export const CONFIG = {
   /** Google Apps Script web app that writes leads to the Google Sheet (google-sheet/Code.gs) */
   formEndpoint:
     env.VITE_FORM_ENDPOINT ||
-    'https://script.google.com/macros/s/AKfycbwgUYh1R9F9ie380CRpYXsJusX35_x19ERXsFhiaFfg-7NbrENMmU6eL54kv2N7eRbIfQ/exec',
+    'https://script.google.com/macros/s/AKfycbzZ42QNP25WPZ5Pd5NaY_715iBY89pk8DZQRQC8lXiDD7I97AP8A59Qp4Sj68qKhPYi/exec',
   /** Link to your privacy policy */
   privacyUrl: env.VITE_PRIVACY_URL || '#',
   /** Auto enquiry popup delay */
